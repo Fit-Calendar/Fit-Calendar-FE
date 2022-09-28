@@ -4,8 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fit Calendar Main</title>
-    <link rel="stylesheet" href="../css/main.css">
+    <title>로그인</title>
+    <link rel="stylesheet" href="../css/login.css">
 </head>
 <body>
     <div class="flex-container">
@@ -56,76 +56,42 @@
                 
             </div>
 
-            <!-- container -->
-            <div class="container">
-                <!-- 윗줄 -->
-                <div>
-                     <!-- 운동 종목 별 목록 -->
-                    <div class="exerciseList">
-                        <div class="subMenu">
-                            <div class="subTitle">헬스</div>
-                            <div class="exerciseBox">
-                                <div class="exerciseRecord"></div>
-                                <div class="exerciseRecord"></div>
-                                <div class="exerciseRecord"></div>
-                            </div>
+                       <!-- container -->
+                       <div class="container">
+                        <div id="main">
+                            <form>
+                                <div class="flex-container2">
+                                    <div id="subTitle">
+                                        <p class="subTitle">로그인</p>
+                                    </div>
+                                    <div id="loginBox">
+                                        <div class="box">
+                                            <input type="text" class="inputId" id="id" maxlength="30"
+                                            placeholder="아이디"
+                                            onfocus="this.placeholder = ''" 
+                                            onblur="this.placeholder = '아이디'">
+                                            <p class="alert validId1"></p>
+                                        </div>
+                                        <div class="box">
+                                            <input type="password" class="inputPW" id="pswd1" maxlength="30"
+                                            placeholder="비밀번호"
+                                            onfocus="this.placeholder = ''" 
+                                            onblur="this.placeholder = '비밀번호'">
+                                            <p class="alert validpwd2"></p>
+                                        </div>
+                                    </div>
+                                    <div><button type="button" id="login_btn" onclick="login_check();">로그인</button></div>
+                                </div>
+                            </form>
                         </div>
-                    
-                        <div class="subMenu" >
-                            <p class="subTitle">요가/필테</p>
-                            <div class="exerciseBox">
-                                <div class="exerciseRecord"></div>
-                                <div class="exerciseRecord"></div>
-                                <div class="exerciseRecord"></div>
-                            </div>
+                        <div class="findinfo">
+                            <a href="../html/signUp.html" class="signUPTxt">회원가입</a>
+                            <a href="../html/signUp.html" class="signUPTxt">아이디 찾기</a>
+                            <a href="../html/signUp.html" class="signUPTxt">비밀번호 찾기</a>
                         </div>
+                     
 
-                        <div class="subMenu" >
-                            <p class="subTitle">러닝</p>
-                            <div class="exerciseBox">
-                                <div class="exerciseRecord"></div>
-                                <div class="exerciseRecord"></div>
-                                <div class="exerciseRecord"></div>
-                            </div>
-                        </div>
-
-                        <div class="subMenu" >
-                            <p class="subTitle">기타</p>
-                            <div class="exerciseBox">
-                                <div class="exerciseRecord"></div>
-                                <div class="exerciseRecord"></div>
-                                <div class="exerciseRecord"></div>
-                            </div>
-                        </div>
                     </div>
-
-                    <!-- user 님 어쩌구 -->
-                    <div class="userMain">
-                        <p class="userName">에이치 님</p>
-                        <div class="userBox"></div>
-                    </div>
-                </div>
-                
-                <!-- 아랫줄 -->
-                <div>
-                    <!-- 초보  -->
-                    <div class="newMemberList">
-                        <div class="newMemberTitle">신규 사용자들</div>
-                        <div class="newMemberBox">
-                            <!-- <div class="newMemRecord"></div>
-                            <div class="newMemRecord"></div>
-                            <div class="newMemRecord"></div> -->
-                        </div>
-                    </div>
-                    
-                    <!-- 포인트 -->
-                    <div class="rank5List">
-                        <p class="rank5">랭킹 TOP 5</p>
-                        <div class="rank5Box"></div>
-                    </div>
-                    
-                </div>
-            </div>
         </div>
         
         <!-- footer -->
