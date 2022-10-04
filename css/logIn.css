@@ -1,15 +1,10 @@
-/* @import url(//fonts.googleapis.com/earlyaccess/notosanskr.css); */
-/* @import url(//fonts.googleapis.com/earlyaccess/jejugothic.css); */
-/* @import url(//fonts.googleapis.com/earlyaccess/jejuhallasan.css); */
-@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    /* font-family: 'Jeju Gothic', sans-serif; */
-    /* font-family: 'Jeju Hallasan', cursive; */
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'NanumSquare', san-serif;
 }
 html, body {
     height: 100%;
@@ -122,8 +117,10 @@ footer .container {
 .logo{
     display: block;
     width: 200px;
-    margin: 0 auto;
-    color: 	#556B2F;
+    font-weight: 700;
+    margin: 0px auto;
+    margin-bottom: 0;
+    color: 	#556B2F; 
 }
 
 .subMenu{
@@ -272,7 +269,6 @@ footer a {
     font-weight: 500;
 }
 #fit_footer {
-    font-family: 'Jeju Myeongjo';
     font-size: 25px;
     margin: 0;
     font-weight: 600;

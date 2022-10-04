@@ -1,4 +1,4 @@
-@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css);
+@import url(https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@1.0/nanumsquare.css);
 
 /* 색상 */
 /* lightgrey: 	#D3D3D3 */
@@ -9,7 +9,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Jeju Myeongjo', serif;
+    font-family: 'NanumSquare', san-serif;
 }
 html, body {
     height: 100%;
@@ -122,12 +122,10 @@ footer .container {
 .logo{
     display: block;
     width: 200px;
+    font-weight: 700;
     margin: 0px auto;
     margin-bottom: 0;
-    /* color:black; */
-    /* color: #329632; */
-    /* color: 	#006400; */
-    color: 	#556B2F;
+    color: 	#556B2F; 
 }
 
 .subMenu{
@@ -276,7 +274,6 @@ footer a {
     font-weight: 500;
 }
 #fit_footer {
-    font-family: 'Jeju Myeongjo';
     font-size: 25px;
     margin: 0;
     font-weight: 600;
